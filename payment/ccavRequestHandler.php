@@ -10,8 +10,8 @@
 	error_reporting(0);
 
 	$merchant_data='2';
-	$working_key='A1CA24D953911417B218CCC9F7E902D2';//Shared by CCAVENUES
-	$access_code='AVJF19KB19AU19FJUA';//Shared by CCAVENUES
+	$working_key='';//Shared by CCAVENUES
+	$access_code='';//Shared by CCAVENUES
 
 	foreach ($_POST as $key => $value){
 		$merchant_data.=$key.'='.$value.'&';
